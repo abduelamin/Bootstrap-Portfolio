@@ -13,31 +13,6 @@ body {
     background-color: #070a13;
 }
 
-
-
-
-/* If you want to add a button, use these parameters
-#btn {
-    background-color: #e11d48;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1rem;
-    padding: .5em;
-    height: 50px;
-    width: 100px;
-    border: 0px;
-    border-radius: 20px;
-}
-
-
-#btn a {
-    text-decoration: none;
-    color: white;
-    font-weight: 20px;
-} */
-
-
 #hero {
     display: flex;
     flex-direction: column;
@@ -86,19 +61,6 @@ p {
 }
 
 
-
-
-
-footer .fa-brands {
-    color: var(--designcolor);
-    font-size: 5em;
-}
-
-
-
-/* NEW CSS */ 
-
-
 nav a {
     text-decoration: none;
     color: #94a3b8 !important;
@@ -126,15 +88,17 @@ nav ul a:hover {
 
 .p-5 {
     margin-top: 20rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 #My-projects {
     text-align: center;
     position: relative;
     top: 20em;
-    border: 2px solid yellowgreen;
+    /* border: 2px solid yellowgreen; */
 }
+
+
 
 img {
     border-radius: 20px;
@@ -176,6 +140,7 @@ section {
 
 .card .fa-solid {
     color: burlywood;
+    font-size: 2rem;
 }
 
 .card .fa-solid:hover {
@@ -189,6 +154,9 @@ section {
     text-align: center;
     margin-bottom: 20%;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
 }
 
 #about-me .highlight{
@@ -196,11 +164,52 @@ section {
     text-transform: capitalize;
 }
 
-#skills-section {
-    display: flex;
-    padding: 5%;
-    border: 2px solid red;
-    justify-content: space-evenly;
-    align-items: center;
 
+
+.skillset .fa-solid {
+    color: #e11d48;
+    font-size: 3rem;
+    margin-bottom: 40px !important;
+}
+
+.skillset .card-title {
+    margin-bottom: 50px;
+}
+
+#skillset {
+    padding: 10%;
+    margin-top: 20px;
+    /* border: 2px solid red; */
+}
+
+.skillcard {
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    padding: 10%
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    column-gap: 10%;
+    padding: 2%;
+}
+footer .fa-brands {
+    color: var(--designcolor);
+    font-size: 5em;
+}
+
+footer .fa-brands:hover {
+    box-shadow: -4px 0px 4px #94a3b8, 4px 4px 4px #94a3b8;
+}
+
+#contact-form {
+    color: white;
+    border: 2px solid #94a3b8;
+    padding: 2%;
+    filter: brightness(.5);
+}
+
+#contact-form:hover {
+    filter: brightness(1);
 }
