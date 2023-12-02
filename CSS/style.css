@@ -188,11 +188,17 @@ section {
     padding: 10%
 }
 
+.skillcard:hover {
+    transform: scale(1.05);
+    transition: all 0.2s linear 0s;
+}
 footer {
+    position: relative;
+    top: 250px;
     display: flex;
     justify-content: center;
     column-gap: 10%;
-    padding: 2%;
+    padding: 1%;
 }
 footer .fa-brands {
     color: var(--designcolor);
