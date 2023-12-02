@@ -192,6 +192,7 @@ section {
     transform: scale(1.05);
     transition: all 0.2s linear 0s;
 }
+
 footer {
     position: relative;
     top: 250px;
@@ -199,6 +200,7 @@ footer {
     justify-content: center;
     column-gap: 10%;
     padding: 1%;
+    padding-top: 0%;
 }
 footer .fa-brands {
     color: var(--designcolor);
